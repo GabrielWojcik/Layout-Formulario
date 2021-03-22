@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(120, 60, 0);
+}
+.menu{
+    list-style: none;
+    border: 1px solid red;
+    float: left;
+    margin-left: 250px;
+}
+.menu li{
+    position: relative;
+    float: left;
+    border-right:1px solid red;
+}
+.menu li a{color:white; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background: rgb(191, 10, 28);
+color: #fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+
+}
+
+.text-home{
+    position: relative;
+    margin-left: -150px;
+}
+.titulo{
+    display: block;
+    color: white;
+    margin-top: 0px;
+    margin-left: 450px;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.texts{
+    display: block;
+    margin-top: -480px;
+    margin-left: 560px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family:Libre Franklin;
+    font-size: 15px;
+    
+}
+.logo{
+    margin-top: 30px;
+    color:white;
+    font-family: Roboto;
+    font-size: 30px;
+}
+.input input{
+    color: white;
+}
+.borda1 input{
+    color:white;
+}
+.borda2 input{
+    color: white;
+}
+.carro{
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.coracao{
+    margin-top: -280px;
+    margin-left: 150px;
+}
+.coracao2{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.botao{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.em em-heart_eyes{
+    background: white;
+    color: white;
+    background-color: white;
+}
+
+.texto-home{
+    color: white;
+    margin-left: 920px;
+    margin-top: -20px;
+}
+
+.explicacao{
+    font-size: 25px;
+    margin-left: 920px;
+    margin-top:40px ;
+    justify-content: center;
+    align-items: center;
+
+}
+.boa-sorte{
+    margin-left: 920px;
+    margin-top: -50px;
+    color: red;
+}
